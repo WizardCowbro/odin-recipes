@@ -14,7 +14,7 @@ a:visited {
 
 a:hover,
 a:active {
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
 }
 
@@ -31,4 +31,39 @@ ul {
     margin-right: auto;
     display: block;
     border: 20px black;
+}
+
+#lasagna {
+    border-radius: 50%;
+    position: absolute;
+    top: 400px;
+    left: 750px;
+}
+
+#borgur {
+    width: auto;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 300px;
+    left: 1250px;
+}
+
+#spaggy {
+    width: auto;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 300px;
+    left: 275px;
+}
+
+#chef-hat {
+    width: auto;
+    height: 310px;
+    position: absolute;
+    top: -40px;
+    left: 575px;
+    transform: rotate(10deg);
+    
 }
